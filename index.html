@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+
+  <title>Styl.us</title>
+
+  <style>
+    * {
+      min-height: 50px;
+    }
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+  
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+  
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+
+</head>
+
+
+<body>
+<!--SECTION Styl.us header-->
+  <header class="image-background-header container-fluid flex">
+    <section class="row offset-3 text-right text-light justify-content-flex-end">
+      <div class="col-3 h-padding pb-5">
+        <h2>Styl.us</h2>
+        <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, quibusdam.</p>
+        <button class="btn btn-dark rounded">Get yours Today!</button>
+      </div>
+      <div class="col-6 h-padding"></div>
+    </section>
+  </header>
+
+<!--SECTION icon bar-->
+  <main class="flex fluid text-center">
+    <section class="row bg-secondary bg-success justify-content-center lg-padding">
+
+      <div class="col-2 p-2">
+        <i class="mdi mdi-application"></i>
+        <h5>Write Naturally</h5>
+        <p class="fs-6 lh-1">Write better than ever with the Styl.us. <b>Better than ever.</b></p>
+      </div>
+
+      <div class="col-2 p-2">
+        <i class="mdi mdi-file-word"></i>
+        <h5>Synce</h5>
+        <p class="fs-6 lh-1">Be able to write and still get it on your laptop! <b>Always and forever.</b></p>
+      </div>
+
+      <div class="col-2 p-2">
+        <i class="mdi mdi-check-circle fa-x4 p-4"></i>
+        <h5>Correct</h5>
+        <p class="fs-6 lh-1">Correct your spelling. <b>Track YOUR mistakes.</b></p>
+      </div>
+
+      <div class="col-2 p-2">
+        <i class="mdi mdi-store"></i>
+        <h5>Store</h5>
+        <p class="fs-6 lh-1">Store your writing in your laptop! <b>It's never lost.</b></p>
+      </div>
+    </section>
+
+<!--SECTION subscribe-->
+    <section class="row justify-content-center flex fluid md-padding">
+      <div class="col-3 form-label text-center lh-1">
+        <p class="fs-5 mb-0">Get news from Styl.us</p>
+        <p class="fs-6 mb-0">Leave us your email</p>
+        <!--NOTE how to get button and input side by side???-->
+        <div class="row justify-content-center">
+          <input type="text" class="col-6 form-control p-0 mb-2 append order-1" aria-label="auto">
+          <button class="col-6 btn btn-dark rounded btn-sm append order-2">Subscribe</button>
+        </div>
+      </div>
+    </section>
+
+<!--SECTION image screen-->
+    <section class="row image-background-main fluid lg-padding">
+      <div class="col-12 "></div>
+    </section>
+
+
+  </main>
+<!--SECTION footer black box-->
+<!--NOTE how to make icons bigger??-->
+  <footer class="bg-dark text-light fluid text-center">
+    <section class="row flex p-4">
+      <div class="col-6 mt-5">
+        <i class="mdi mdi-alpha-f-circle-outline"></i>
+        <i class="mdi mdi-camera-enhance-outline"></i>
+        <i class="mdi mdi-account-group-outline"></i>
+        <i class="mdi mdi-alpha-y-circle-outline"></i>
+      </div>
+
+      <div class="col-6">
+        <p class="mt-5 fw-lighter fs-6">Styl.us is not real</p>
+      </div>
+    </section>
+  </footer>
+
+</body>
+</html>
